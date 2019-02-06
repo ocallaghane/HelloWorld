@@ -10,8 +10,8 @@ describe('main page', function() {
   before(function(done) {
     this.browser.visit('/', done)
   })
-  it('should say hello world', function() { 
+  it('should say hello world', function() {
     assert.ok(this.browser.success)
-    assert.equal(this.browser.text(), "Hello Worl")
+    assert.equal(this.browser.text(), "Hello World")
   })
 })
